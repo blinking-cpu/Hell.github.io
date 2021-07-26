@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    
+</head>
+<body>
+    <div class="container">
+        <h1>This is a heading.</h1>
+    </div>
+    <div id="content">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit molestias totam aperiam esse, eos et ab quis ullam neque libero laboriosam quos aut adipisci perferendis mollitia minima commodi, minus quisquam consequuntur voluptatem praesentium repellendus doloremque consequatur. Quaerat blanditiis quam voluptatem ratione nemo aspernatur, doloribus fuga similique accusamus sequi? Error odio, nulla corrupti aut ex architecto! Iste placeat veritatis excepturi corrupti corporis quisquam at saepe nihil, dignissimos quia illum? Maxime.
+    </div>
+    <button id="btn" onclick="toggleHide()"> <span id="btnname">X</span>  </button>
+
+    
+    <script>
+       
+        function toggleHide(){
+            let para=document.getElementById('content');
+            
+            if (para.style.display != "none"){
+                
+                para.style.display="none";
+             document.getElementById("btnname")="Show more";
+            
+            }
+            else{
+                para.style.display="flex";
+                document.getElementById("btnname")="Show less";
+            
+            }
+
+        }
+        
+        
+        
+    </script> 
+    
+</body>
+</html>
+
+01/07/21
+02/07/21
+03/07/21
